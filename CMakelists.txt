@@ -41,10 +41,10 @@ include_directories(${CMAKE_SOURCE_DIR}/common/M5-6)
 include_directories(${CMAKE_SOURCE_DIR}/include/glad)
 include_directories(${glm_SOURCE_DIR})
 
-
 # Lista de exemplos/exercícios podem ser colocados aqui também
 set(EXERCISES
   AtividadeVivencial/AtividadeM2
+  AtividadeVivencial/AtividadeM4
   Desafio/DesafioM2
 )
 
@@ -78,6 +78,16 @@ foreach(EXERCISE ${EXERCISES})
   add_executable(${EXE_NAME} src/${EXERCISE}.cpp ${GLAD_C_FILE})
 
   # Configura as bibliotecas e include dirs para o executável
-  target_include_directories(${EXE_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/include/glad ${glm_SOURCE_DIR} ${stb_image_SOURCE_DIR})
-  target_link_libraries(${EXE_NAME} glfw ${OPENGL_LIBS} glm::glm)
+  target_include_directories(${EXE_NAME} PRIVATE
+    ${CMAKE_SOURCE_DIR}/include/glad
+    ${glm_SOURCE_DIR}
+    ${stb_image_SOURCE_DIR}
+  )
+
+  target_link_libraries(${EXE_NAME}
+  PRIVATE
+    glfw
+    glm::glm
+    ${OPENGL_LIBS}
+)
 endforeach()
