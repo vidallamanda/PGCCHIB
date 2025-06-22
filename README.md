@@ -1,26 +1,17 @@
 # PGCCHIB - Processamento Gráfico
 
-Este repositório contém exemplos e códigos utilizados nas disciplinas de **Processamento Gráfico** e **Fundamentos de Computação Gráfica**. Ele é estruturado para facilitar a organização dos arquivos e a compilação dos projetos utilizando CMake.
+Este repositório contém as atividades realizadas na disciplina de **Processamento Gráfico - UNSINOS**.
 
 ## 📂 Estrutura do Repositório
 
 ```plaintext
 📂 PGCCHIB/
-├── 📂 include/               # Cabeçalhos e bibliotecas de terceiros
-│   ├── 📂 glad/              # Cabeçalhos da GLAD (OpenGL Loader)
-│   │   ├── glad.h
-│   │   ├── 📂 KHR/           # Diretório com cabeçalhos da Khronos (GLAD)
-│   │       ├── khrplatform.h
-├── 📂 common/                # Código reutilizável entre os projetos
-│   ├── glad.c                # Implementação da GLAD
-├── 📂 src/                   # Código-fonte dos exemplos e exercícios
-│   ├── HelloTriangle.cpp     # Exemplo básico de renderização com OpenGL
-│   ├── HelloTransform.cpp    # Exemplo de transformação de objetos em OpenGL
-│   ├── ...                   # Outros exemplos e exercícios futuros
-├── 📂 build/                 # Diretório gerado pelo CMake (não incluído no repositório)
-├── 📄 CMakeLists.txt         # Configuração do CMake para compilar os projetos
-├── 📄 README.md              # Este arquivo, com a documentação do repositório
-├── 📄 GettingStarted.md      # Tutorial detalhado sobre como compilar usando o CMake
+├── 📂 src/                 # Código-fonte das atividades
+│   ├── AtividadeVivencial  # Código-fonte das atividades vivenciais
+│       ├── AtividadeM2.cpp # Código-fonte da atividade vivencial do módulo 2
+├── 📄 CMakeLists.txt       # Configuração do CMake para compilar os projetos
+├── 📄 README.md            # Este arquivo, com a documentação do repositório
+├── 📄 GettingStarted.md    # Tutorial detalhado sobre como compilar usando o CMake
 ```
 
 Siga as instruções detalhadas em [GettingStarted.md](GettingStarted.md) para configurar e compilar o projeto.
