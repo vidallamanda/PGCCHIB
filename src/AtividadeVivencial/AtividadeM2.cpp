@@ -1,8 +1,13 @@
-/* Criando Triângulos a partir do Clique do Mouse
+/* Criando Triângulos a partir de 3 cliques do Mouse 
  *
+ * Cada clique com o botão esquerdo do mouse define um vértice de um triângulo.
+ * Após três cliques consecutivos, o triângulo é criado com os três pontos
+ * definidos, que gera um VAO exclusivo.
+ * 
+ * A cor do triângulo é escolhida ciclicamente a partir de uma paleta de cores.
+ * 
  * Processamento Gráfico - Unisinos
- * Última atualização em 21/06/2025
- *
+ * Última atualização em 22/06/2025
  */
 #include <iostream>
 #include <string>
