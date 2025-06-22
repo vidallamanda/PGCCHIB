@@ -8,7 +8,9 @@ Este repositório contém as atividades realizadas na disciplina de **Processame
 📂 PGCCHIB/
 ├── 📂 src/                 # Código-fonte das atividades
 │   ├── AtividadeVivencial  # Código-fonte das atividades vivenciais
-│       ├── AtividadeM2.cpp # Código-fonte da atividade vivencial do módulo 2
+|   |   ├── AtividadeM2.cpp # Código-fonte da atividade vivencial do módulo 2
+│   ├── Desafio             # Código-fonte das respostas dos desafios
+|   |   ├── DesafioM2.cpp   # Código-fonte do desafio do módulo 2
 ├── 📄 CMakeLists.txt       # Configuração do CMake para compilar os projetos
 ├── 📄 README.md            # Este arquivo, com a documentação do repositório
 ├── 📄 GettingStarted.md    # Tutorial detalhado sobre como compilar usando o CMake
